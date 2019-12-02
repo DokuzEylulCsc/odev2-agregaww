@@ -3,13 +3,14 @@
     
     <meta charset="uft-8">
    
-    <title> Furkan DENÝZ 2018280074</title>
+    <title> Furkan DENIZ 2018280074</title>
+    <title>Write a JavaScript function that Convert Roman Numeral to Integer</title>
     <title> Write a JavaScript function that Convert an integer into a Roman Numeral</title>
 
   </head>
   <body>
-   <h1>Furkan DENÝZ 2018280074</h1>
-    <h2>2019 Güz Dönemi 2.ÖDEVÝ </h2>
+   <h1>Furkan DENIZ 2018280074</h1>
+    <h2> 2019 GÃ¼z DÃ¶nemi 2.Ã–DEVI </h2>
 
 
   <input id =input1 placeholder="Roman Numeral" ></input><button id=buton1 onclick="myFunction()">Result</button>
@@ -94,7 +95,7 @@ default: return -1;
 }
 function Conclusion(num7) {                     
 		if(num7 < 1)    { return "";}
-		if(num7 >= 4000){ return "Lütfen sadece 1 ile 3999 arasýnda sayý giriniz.";}
+		if(num7 >= 4000){ return "LÃ¼tfen sadece 1 ile 3999 arasÃ½nda sayÃ½ giriniz.";}
 		if(num7 >= 1000){ return "M"   + Conclusion(num7 - 1000);}
 		if(num7 >= 590) { return "DXC" + Conclusion(num7 - 590) ;}
 		if(num7 >= 550) { return "DL"  + Conclusion(num7- 550) ;}
